@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 200px;
+  height: auto;
+}
+
+#intro {
+  width: 100vw;
+  height: 25vh;
+  background-color: tomato;
+  position: relative;
+}
+
+h1 {
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  display: inline;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+#about {
+  width: 100vw;
+  height: 25vh;
+  background-color: papayawhip;
+  position: relative;
+}
+
+#about h2 {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#about p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  max-width: 300px;
+}
+
+#fun {
+  width: 100vw;
+  height: 25vh;
+  background-color: yellow;
+  position: relative;
+}
+
+#fun h2 {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#fun ol {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#contacto {
+  width: 100vw;
+  height: 25vh;
+  background-color: peru;
+  position: relative;
+}
+
+#contacto h2 {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#contacto div {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
